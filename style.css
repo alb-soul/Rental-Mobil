@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+
+header {
+    width: 100%;
+    height: 146px;
+    background-color: rgb(212, 78, 100);
+    color: whitesmoke;
+    font-family: 'Rubik Vinyl', cursive;
+}
+
+header h1,h2,p {
+    text-align: center;
+    padding-top: 20px;
+}
+
+body {
+    background-color: #F2EDE3;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main.order {
+    /*create center box for login form*/
+    padding: 30px;
+    width: 500px;
+    height: auto;
+    background-color: #fdfcf9;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+main.view {
+    /*create center box for login form*/
+    padding: 30px;
+    width: 700px;
+    height: 442px;
+    background-color: #fdfcf9;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+
+    text-align: left;
+    /* margin-top: auto; */
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+td.judul {
+    font-weight: bolder;
+}
+
+main.listdata {
+    /*create center box for login form*/
+    padding: 30px;
+    width: 90%;
+    height: auto;
+    background-color: #fdfcf9;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.ttlpendapatan {
+        margin-top: 8px 0;
+        border: 3px solid #4CAF50;
+        width: auto;
+        padding: 14px;
+        border-radius: 8px;
+        display: inline;
+        float: right;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(212, 78, 100);
+    color: whitesmoke;
+    text-align: center;
+}
+
+footer h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+body {
+    min-width: 435px;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 78%;
+    border-radius: 13px;
+    margin-left: 50px;
+}
+
+button.back {
+    background-color: #e73204;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    border-radius: 13px;
+    margin-left: 50px;
+}
+
+button.tambah {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 2px 0;
+    margin-bottom: 28px;
+    border: none;
+    cursor: pointer;
+    width: 232px;
+    border-radius: 10px;
+    /*margin-left: 50px;*/
+    font-weight: bolder;
+}
+
+
+.btn {
+    /* background-color: DodgerBlue; */
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    width: fit-content;
+  }
+  
+  /* Darker background on mouse-over */
+#opsi-delete:hover, #opsi-view:hover {
+    background-color: RoyalBlue;
+}
+
+#opsi-edit:hover {
+    background-color: #4CAF50;
+}
+
+i {
+    margin: 0px;
+}
+
+button#opsi-view {
+    background-color: #4c6baf;
+}
+
+button#opsi-delete {
+    background-color: #e73204;
+}
+
+
+
+/*center form of main*/
+form {
+    text-align: center;
+    margin-top: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+
+/* th#opsi, td#opsi {
+    width: 260px;
+} */
+
+/*center the input fields and buttons*/
+input[type=text], input[type=password], input[type=date], select {
+    width: 78%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 13px;
+    margin-left: 50px;
+}
